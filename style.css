@@ -7,4 +7,66 @@
   font-size: 25px;
 }
 
+.fa-circle {
+  font-size: 15px;
+}
+
+.main-content-header {
+  height: 100vh;
+  background: linear-gradient(to right, #A406A7 0%, #A406A7 50%, #C203C6 50%, #C203C6 100%);
+}
+
+.main-content-header .middle-content-main .content {
+  text-align: center;
+  padding-top: 35vh;
+}
+
+.main-content-header .middle-content-main .content h1 {
+  color: whitesmoke;
+  transform: rotateZ(5deg);
+}
+
+.main-content-header .middle-content-main .content p {
+  color: whitesmoke;
+  padding-top: 50px;
+  font-size: 25px;
+}
+
+.second-content-main {
+  background-color: #2F282F;
+  height: 120vh;
+}
+
+.second-content-main .container {
+  padding-top: 100px;
+}
+
+.second-content-main .container .row .col .card {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-color: #C203C6;
+  border-style: outset;
+  border-width: 4px;
+}
+
+.main-container-three .card {
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 300px;
+  background-color: #A406A7;
+  color: whitesmoke;
+}
+
+.main-container-three .one-card {
+  margin-top: 40vh;
+}
+
+.main-container-three .card-section {
+  padding-top: 10vh;
+}
+
+footer {
+  background-color: #2F282F;
+}
+
 /*# sourceMappingURL=style.css.map */
