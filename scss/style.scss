@@ -42,11 +42,12 @@
   padding-top: 100px;
 }
 .second-content-main .container .row .col .card {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-top: 20px;
     border-color: #C203C6;
     border-style: outset;
     border-width: 4px;
+    
 }
 .main-container-three .card {
     margin-left: 50px;
@@ -158,13 +159,16 @@ footer {
   } 
   @media only screen and (max-width: 320px) {
     .second-content-main .container .row .col .card {
-        width: 130px;
-        border-color: #C203C6;
-        border-style: outset;
-        border-width: 4px;
+        display: none;
     }
     .second-content-main {
         background-color: #2F282F;
         height: 75vh;
+    }
+    .main-container-three .one-card {
+        display: none;
+    }
+    .main-container-three .two-card {
+        display: none;
     }
   } 
